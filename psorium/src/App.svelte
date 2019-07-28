@@ -5,6 +5,14 @@
   import FoundRecipes from "./components/FoundRecipes/index.svelte";
   import Tabs from "./components/Tabs/index.svelte";
 
+  import { GET_PRODUCT_URL } from "./constants";
+
+  import {
+    isRecipiesSearchEnable,
+    foundRecipes,
+    selectedForRecipeProducts
+  } from "./stores/store.js";
+
   import { TABS } from "./common/constants";
 
   let isSearchedAtLeastOnce = false;
@@ -17,7 +25,7 @@
   };
   const setCurrentTabKey = key => (currentTabKey = key);
 
-  $: components = {
+  $: components = { 
     [TABS.SEARCH_RESULTS]: {
       component: ProductSearchResults,
       props: { searchResults, isSearchedAtLeastOnce }
@@ -28,6 +36,19 @@
     },
     [TABS.FOUND_RECIPES]: { component: FoundRecipes, props: {} }
   };
+
+  const unsubscribe = selectedForRecipeProducts.subscribe(async products => {
+    const keys = Object.keys(products);
+    if (!keys || keys.length === 0) return;
+    const result = await fetch(
+      GET_PRODUCT_URL + keys.map(key => products[key].edaId).join(",")
+    );
+    const recipes = await result.json();
+    isRecipiesSearchEnable.update(() => false);
+    foundRecipes.update(() => {
+      return recipes;
+    });
+  });
 </script>
 
 <style>
@@ -40,8 +61,8 @@
 
   :global(body) {
     font-family: "Fira Sans Condensed", sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 10px;
+    padding: 10px;
   }
 
   .main {

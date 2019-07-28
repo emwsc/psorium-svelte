@@ -1,5 +1,8 @@
 import { NEVER_TYPE, GET_PRODUCT_URL } from "./constants.js";
-import { selectedForRecipeProducts } from "../../stores/store.js";
+import {
+  isRecipiesSearchEnable,
+  selectedForRecipeProducts
+} from "../../stores/store.js";
 import { PRODUCT_VIEW_TYPES } from "../../common/constants";
 
 import lottie from "lottie-web";
@@ -17,6 +20,10 @@ export const getProductClass = product => {
   return productClass;
 };
 
+/**
+ * Получить ИД продукта с сайта eda.ru
+ * @param {string} term
+ */
 export const getProductEdaId = async term => {
   const result = await fetch(GET_PRODUCT_URL + term);
   const json = await result.json();
@@ -32,12 +39,11 @@ export const updateSelectedProducts = async product => {
   const edaId = await getProductEdaId(name);
   let isSelected;
   selectedForRecipeProducts.update(products => {
+    isRecipiesSearchEnable.update(() => true);
     isSelected = products[id] ? false : true;
     if (products[id]) {
       delete products[id];
-      return products;
-    }
-    products[id] = { ...product, edaId };
+    } else products[id] = { ...product, edaId };
     return products;
   });
   return isSelected;

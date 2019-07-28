@@ -84,7 +84,6 @@
 
   .product__name {
     grid-area: name;
-    font-weight: bold;
     font-size: 16px;
   }
 
