@@ -1,0 +1,430 @@
+[
+  {
+    "group": "Овощи",
+    "products7080": [
+      { "name": "Морковь", "isRecommended": true },
+      { "name": "Сельдерей", "isRecommended": true },
+      { "name": "Свекла", "isRecommended": false },
+      { "name": "Петрушка", "isRecommended": false },
+      { "name": "Салат-латук", "isRecommended": true },
+      { "name": "Кресс-салат", "isRecommended": true },
+      { "name": "Лук", "isRecommended": true },
+      { "name": "Чеснок", "isRecommended": true },
+      { "name": "Брокколи", "isRecommended": false },
+      { "name": "Капуста кочанная", "isRecommended": false },
+      { "name": "Спаржа", "isRecommended": false },
+      { "name": "Шпинат ", "isRecommended": true },
+      { "name": "Кабачки", "isRecommended": false },
+      { "name": "Проростки", "isRecommended": false },
+      { "name": "Тыква", "isRecommended": false },
+      { "name": "Ямс", "isRecommended": false }
+    ],
+    "products2030": [
+      { "name": "Фасоль", "isRecommended": false },
+      { "name": "Чечевица", "isRecommended": false },
+      { "name": "Брюссельская капуста", "isRecommended": false },
+      { "name": "Горох", "isRecommended": false },
+      { "name": "Бобы сушеные", "isRecommended": false },
+      { "name": "Ревень", "isRecommended": false },
+      { "name": "Кукуруза", "isRecommended": false }
+    ],
+    "productsCanButLittle": [],
+    "productsNever": [
+      { "name": "Томаты", "isRecommended": false },
+      { "name": "Баклажаны", "isRecommended": false },
+      { "name": "Картофель", "isRecommended": false },
+      { "name": "Перец салатный", "isRecommended": false },
+      { "name": "Перец красный", "isRecommended": false },
+      { "name": "Табак", "isRecommended": false }
+    ],
+    "productsNeverPA": [],
+    "productsNotMatching": [
+      { "name": "Овощи подбирать по схеме 3 к 1", "isRecommended": false },
+      {
+        "name": "Т.е. на 3 овоща выше земли идет один овощ ниже земли. Ямс заменяет картошку",
+        "isRecommended": false
+      }
+    ],
+    "productsRecommended": []
+  },
+  {
+    "group": "Орехи",
+    "products7080": [
+      { "name": "Миндаль ( замоченный)", "isRecommended": true },
+      { "name": "Американский орех", "isRecommended": false },
+      { "name": "Все проросшие семена", "isRecommended": false },
+      { "name": "Свежий кокосовый орех", "isRecommended": false },
+      { "name": "Свежий грецкий орех.", "isRecommended": false }
+    ],
+    "products2030": [
+      { "name": "Орех кешью", "isRecommended": false },
+      { "name": "Старый грецкий орех", "isRecommended": false },
+      { "name": "Фундук", "isRecommended": false },
+      { "name": "Арахис", "isRecommended": false },
+      { "name": "Орех пекан", "isRecommended": false },
+      { "name": "Семена тыквы", "isRecommended": false },
+      { "name": "Кунжут", "isRecommended": false },
+      { "name": "Подсолнечник", "isRecommended": false },
+      { "name": "Лен", "isRecommended": false },
+      { "name": "Сухой кокосовый орех", "isRecommended": false }
+    ],
+    "productsCanButLittle": [],
+    "productsNever": [
+      { "name": "Все жаренные и солёные орехи", "isRecommended": false }
+    ],
+    "productsNeverPA": [],
+    "productsNotMatching": [],
+    "productsRecommended": []
+  },
+  {
+    "group": "Грибы",
+    "products7080": [],
+    "products2030": [],
+    "productsCanButLittle": [{ "name": "+", "isRecommended": false }],
+    "productsNever": [],
+    "productsNeverPA": [],
+    "productsNotMatching": [],
+    "productsRecommended": []
+  },
+  {
+    "group": "Фрукты, ягоды",
+    "products7080": [
+      { "name": "Все фрукты и соки из них", "isRecommended": false }
+    ],
+    "products2030": [
+      { "name": "Клюква", "isRecommended": false },
+      { "name": "Смородина", "isRecommended": false },
+      { "name": "Крупный чернослив", "isRecommended": false },
+      { "name": "Слива", "isRecommended": false },
+      { "name": "Черника", "isRecommended": false }
+    ],
+    "productsCanButLittle": [],
+    "productsNever": [{ "name": "Клубника", "isRecommended": false }],
+    "productsNeverPA": [
+      { "name": "Клубника цитрусовые", "isRecommended": false }
+    ],
+    "productsNotMatching": [
+      { "name": "Нельзя есть цитрусовые с зерновыми", "isRecommended": false },
+      {
+        "name": "Цитрусовые с молочными продуктами. Яблоки",
+        "isRecommended": false
+      },
+      {
+        "name": "Бананы и бахчевые надо есть отдельно от любого вида пищи",
+        "isRecommended": false
+      }
+    ],
+    "productsRecommended": [
+      { "name": "Желатин с фруктами", "isRecommended": false },
+      { "name": "Соком", "isRecommended": false }
+    ]
+  },
+  {
+    "group": "Зерновые и хлебо-булочные изделия",
+    "products7080": [{ "name": "Просо", "isRecommended": false }],
+    "products2030": [
+      { "name": "Все остальные зерновые", "isRecommended": false }
+    ],
+    "productsCanButLittle": [
+      { "name": "Пицца", "isRecommended": false },
+      {
+        "name": "Но из цельнозерновой муки с мясом и овощами без майонеза и без кетчупа",
+        "isRecommended": false
+      }
+    ],
+    "productsNever": [
+      { "name": "Изделия из белой шлифованной муки", "isRecommended": false }
+    ],
+    "productsNeverPA": [],
+    "productsNotMatching": [],
+    "productsRecommended": []
+  },
+  {
+    "group": "Дикий или коричневый рис",
+    "products7080": [
+      { "name": "Белый шлифованный рис", "isRecommended": false }
+    ],
+    "products2030": [],
+    "productsCanButLittle": [],
+    "productsNever": [],
+    "productsNeverPA": [],
+    "productsNotMatching": [],
+    "productsRecommended": []
+  },
+  {
+    "group": "Все дрожжевые хлебобулочные изделия",
+    "products7080": [],
+    "products2030": [],
+    "productsCanButLittle": [],
+    "productsNever": [],
+    "productsNeverPA": [],
+    "productsNotMatching": [],
+    "productsRecommended": []
+  },
+  {
+    "group": "Сыры",
+    "products7080": [
+      { "name": "Белые сыры", "isRecommended": false },
+      { "name": "Свежие", "isRecommended": false },
+      { "name": "Сыры с мягкой корочкой", "isRecommended": false },
+      { "name": "Творожные): рикотта", "isRecommended": false },
+      { "name": "Маскарпоне", "isRecommended": false },
+      { "name": "Домашний сыр (творог)", "isRecommended": false },
+      { "name": "Французские бри и камамбер", "isRecommended": false },
+      { "name": "Робиола", "isRecommended": false },
+      { "name": "Чеширский", "isRecommended": false },
+      { "name": "Моцарелла", "isRecommended": false },
+      { "name": "Фета", "isRecommended": false }
+    ],
+    "products2030": [],
+    "productsCanButLittle": [],
+    "productsNever": [
+      { "name": "Желтые сыры", "isRecommended": false },
+      { "name": "Плавленные сырки", "isRecommended": false }
+    ],
+    "productsNeverPA": [],
+    "productsNotMatching": [],
+    "productsRecommended": []
+  },
+  {
+    "group": "Молочное",
+    "products7080": [],
+    "products2030": [
+      { "name": "Обезжиренное молоко", "isRecommended": false },
+      {
+        "name": "Молочные сыры с низким содержанием соли и творог",
+        "isRecommended": false
+      },
+      { "name": "Пахта", "isRecommended": false },
+      { "name": "Козье молоко", "isRecommended": true },
+      { "name": "Соевое и миндальное (как замена)", "isRecommended": false },
+      {
+        "name": "Масло не соленое. маргарин с низким %жира и соли",
+        "isRecommended": false
+      },
+      { "name": "Кефир", "isRecommended": false },
+      { "name": "Йогурт простые", "isRecommended": false },
+      { "name": "С низким %жира", "isRecommended": false }
+    ],
+    "productsCanButLittle": [],
+    "productsNever": [
+      { "name": "Жирное молоко", "isRecommended": false },
+      { "name": "Сливки", "isRecommended": false },
+      { "name": "Мороженое", "isRecommended": false },
+      { "name": "Цельномолочные продукты", "isRecommended": false },
+      { "name": "Жирные продукты", "isRecommended": false },
+      { "name": "Взбитые сливки", "isRecommended": false },
+      { "name": "Гидрогенизированный маргарин", "isRecommended": false },
+      { "name": "Молочный продукт с сахаром", "isRecommended": false },
+      { "name": "Сиропом или соками", "isRecommended": false },
+      { "name": "Фруктами. Не употребляйте молочное", "isRecommended": false },
+      {
+        "name": "Если у Вас на него аллергия.",
+        "isRecommended": false
+      }
+    ],
+    "productsNeverPA": [
+      {
+        "name": "Нельзя молочное с цитрусовыми. Нельзя молочное с сахаром",
+        "isRecommended": false
+      }
+    ],
+    "productsNotMatching": [],
+    "productsRecommended": []
+  },
+  {
+    "group": "Мясо",
+    "products7080": [],
+    "products2030": [
+      {
+        "name": "Баранина 115-170г 1-2 раза/неделю (на вертеле",
+        "isRecommended": false
+      },
+      { "name": "Гриль", "isRecommended": false },
+      { "name": "Печеное)", "isRecommended": false }
+    ],
+    "productsCanButLittle": [
+      { "name": "Кусочек свежего бекона.", "isRecommended": false }
+    ],
+    "productsNever": [
+      { "name": "Жирное мясо", "isRecommended": false },
+      { "name": "Все колбасы", "isRecommended": false },
+      { "name": "Все копчености", "isRecommended": false },
+      { "name": "Жареное", "isRecommended": false },
+      { "name": "Полусырое.", "isRecommended": false }
+    ],
+    "productsNeverPA": [],
+    "productsNotMatching": [
+      {
+        "name": "Порция мяса около 170гр Все мясо окисляющего свойства.",
+        "isRecommended": false
+      }
+    ],
+    "productsRecommended": []
+  },
+  {
+    "group": "Птица, яйца",
+    "products7080": [],
+    "products2030": [
+      { "name": "Нежирная птица", "isRecommended": false },
+      { "name": "Цыпленок", "isRecommended": false },
+      { "name": "Курица", "isRecommended": false },
+      { "name": "Индюшка", "isRecommended": false },
+      {
+        "name": "Яйца (обваренные кипятком",
+        "isRecommended": false
+      },
+      { "name": "Не жаренные 2-4/неделю)", "isRecommended": false },
+      { "name": "Нежирная дичь (фазан", "isRecommended": false },
+      {
+        "name": "Перепел и т.д.) Не более 115-170г 2раза/неделю",
+        "isRecommended": false
+      }
+    ],
+    "productsCanButLittle": [],
+    "productsNever": [
+      { "name": "Жаренная", "isRecommended": false },
+      { "name": "Жирная (утка", "isRecommended": false },
+      { "name": "Гусь и т.д.)", "isRecommended": false },
+      { "name": "Кожа птицы", "isRecommended": false },
+      { "name": "Темное мясо", "isRecommended": false },
+      { "name": "Копченая птица", "isRecommended": false },
+      { "name": "Не полностью готовая", "isRecommended": false },
+      { "name": "В кляре", "isRecommended": false },
+      { "name": "Сухарях", "isRecommended": false },
+      {
+        "name": "С большим кол-вом специй",
+        "isRecommended": false
+      },
+      { "name": "Острая", "isRecommended": false },
+      { "name": "С перцем.", "isRecommended": false }
+    ],
+    "productsNeverPA": [],
+    "productsNotMatching": [],
+    "productsRecommended": []
+  },
+  {
+    "group": "Рыба",
+    "products7080": [],
+    "products2030": [
+      {
+        "name": "Желательно морская рыба. Сырую (суши)(сырая рыба выловленная в чистой воде). По 115-170г. 4раза/неделю Тунец (б. белый)",
+        "isRecommended": true
+      },
+      { "name": "Басс-рыба", "isRecommended": false },
+      { "name": "Голубая рыба", "isRecommended": false },
+      { "name": "Треска", "isRecommended": false },
+      { "name": "Макрель", "isRecommended": false },
+      { "name": "Корифена", "isRecommended": false },
+      { "name": "Камбала", "isRecommended": false },
+      { "name": "Групер", "isRecommended": false },
+      { "name": "Пикша", "isRecommended": false },
+      { "name": "Палтус", "isRecommended": false },
+      { "name": "Окунь", "isRecommended": false },
+      { "name": "Люциан", "isRecommended": false },
+      { "name": "Лосось", "isRecommended": false },
+      { "name": "Сардины", "isRecommended": false },
+      { "name": "Морской язык", "isRecommended": false },
+      { "name": "Осетр", "isRecommended": false },
+      { "name": "Меч-рыба", "isRecommended": false },
+      { "name": "Форель", "isRecommended": false },
+      { "name": "Тунец", "isRecommended": false },
+      { "name": "Тиле-рыба", "isRecommended": false },
+      { "name": "Сиг.", "isRecommended": false }
+    ],
+    "productsCanButLittle": [],
+    "productsNever": [
+      { "name": "Копченая", "isRecommended": false },
+      { "name": "С уксусом", "isRecommended": false },
+      {
+        "name": "Жареная все моллюски и ракообразные",
+        "isRecommended": false
+      },
+      { "name": "Кальмары", "isRecommended": false },
+      { "name": "Мидии", "isRecommended": false },
+      { "name": "Устрицы", "isRecommended": false },
+      { "name": "Гребешки", "isRecommended": false },
+      { "name": "Креветки", "isRecommended": false },
+      { "name": "Омары", "isRecommended": false },
+      { "name": "И т.п.).Анчоусы", "isRecommended": false },
+      { "name": "Сельдь соленая или в масле", "isRecommended": false },
+      { "name": "Семга", "isRecommended": false },
+      {
+        "name": "Суши (если рыба выловлена в грязной воде)",
+        "isRecommended": false
+      },
+      { "name": "Икра", "isRecommended": false },
+      { "name": "Запеченна рыба в кляре или сухарях", "isRecommended": false },
+      { "name": "Маринованная рыба.", "isRecommended": false }
+    ],
+    "productsNeverPA": [],
+    "productsNotMatching": [
+      { "name": "Жирная  морская рыба предпочтительна", "isRecommended": false }
+    ],
+    "productsRecommended": []
+  },
+  {
+    "group": "Масла",
+    "products7080": [
+      { "name": "Ореховое", "isRecommended": false },
+      { "name": "Сливочное", "isRecommended": false },
+      { "name": "Сливки", "isRecommended": false },
+      { "name": "Оливковое", "isRecommended": false },
+      { "name": "Соевое", "isRecommended": false },
+      { "name": "Кунжутное", "isRecommended": false },
+      { "name": "Подсолнечное", "isRecommended": false },
+      { "name": "Кукурузное", "isRecommended": false },
+      { "name": "Сафлоровое", "isRecommended": false }
+    ],
+    "products2030": [],
+    "productsCanButLittle": [],
+    "productsNever": [],
+    "productsNeverPA": [],
+    "productsNotMatching": [],
+    "productsRecommended": []
+  },
+  {
+    "group": "Сахар",
+    "products7080": [],
+    "products2030": [],
+    "productsCanButLittle": [
+      { "name": "Мёд", "isRecommended": false },
+      { "name": "Агар-агароид", "isRecommended": false }
+    ],
+    "productsNever": [
+      {
+        "name": "Все сахарные продукты",
+        "isRecommended": false
+      },
+      { "name": "Кондитерские изделия", "isRecommended": false }
+    ],
+    "productsNeverPA": [],
+    "productsNotMatching": [],
+    "productsRecommended": []
+  },
+  {
+    "group": "Напитки",
+    "products7080": [],
+    "products2030": [],
+    "productsCanButLittle": [
+      {
+        "name": "Кофе",
+        "isRecommended": false
+      },
+      { "name": "Вино", "isRecommended": false }
+    ],
+    "productsNever": [{ "name": "Томатный сок", "isRecommended": false }],
+    "productsNeverPA": [
+      { "name": "Соки с добавлением сахара", "isRecommended": false }
+    ],
+    "productsNotMatching": [
+      {
+        "name": "Рекомендуется абрикосовый сок. Пить много воды. Соки+желатин.",
+        "isRecommended": false
+      }
+    ],
+    "productsRecommended": [
+      { "name": "Фруктовые свежевыжатые соки", "isRecommended": false }
+    ]
+  }
+]
